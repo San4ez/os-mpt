@@ -40,13 +40,13 @@ img {
 
 .btn {background:#135571;color:#fff;
 
-		-webkit-transition: all 250ms;
+        -webkit-transition: all 250ms;
         -moz-transition: all 250ms;
         -o-transition: all  250ms;
         transition: all  250ms;
-		
-		}
-		
+        
+        }
+        
 .btn:hover {background:#333; }
 
 .btn-download { border-radius:0 4px 0 0; font-weight:bold; width: 25px;  overflow: hidden;}
@@ -63,7 +63,7 @@ iframe {
     border: 0 !important;
 }
 
-.wrapper { margin:20px 40px ; border-radius:4px; box-shadow:0 0 2px 2px rgba(100,155,155,0.1); border:1px solid #d3d3d3;}
+.wrapper { margin:20px 40px ; border-radius:4px; box-shadow:0 0 2px 2px rgba(155,155,155,0.1); border:1px solid #d3d3d3;}
 header {
     width: 100%;
     overflow: hidden;
@@ -165,7 +165,7 @@ a:active {
 header {
     padding: 2em 0 2em 0; 
     
-    background: #FFA07A; 
+    background: #2F4F4F; 
     color: #fff;
 }
 
@@ -187,8 +187,8 @@ header h2.lone-header {
 footer {
     text-align: center;
     padding: 1.5em 0;
-	background:#fff;
-	border-radius:0 0 4px 4px;
+    background:#fff;
+    border-radius:0 0 4px 4px;
 }
 
 footer p {
@@ -204,7 +204,7 @@ nav {
     background: #fff;
     padding: 0;
     min-height: 60px;
-	border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 nav ul, nav li {
@@ -215,8 +215,8 @@ nav ul, nav li {
 
 nav a {
     padding: 0 1em;
-	text-decoration:none !important;
-	font-size: .9em;
+    text-decoration:none !important;
+    font-size: .9em;
     height: 60px;
     line-height: 60px;
     display: block;
@@ -226,9 +226,9 @@ nav h1 a {
     padding: 7px 1em;
     height: 46px;
     line-height: 0;
-	height: 45px;
-	line-height: 60px;
-	color: #000;
+    height: 45px;
+    line-height: 60px;
+    color: #000;
 }
 
 nav h1 a img {   margin-right: 10px;
@@ -297,6 +297,14 @@ nav #menu-toggle {
 }
 
 
+
+
+
+
+
+
+
+
 /* Content Styles */
 section { padding: 1em 0 3em; text-align: center; }
 section.vibrant { background: #222; color: #fff; }
@@ -340,6 +348,12 @@ input {
     -o-transition: all linear 0.2s;
     transition: all linear 0.2s;
 }
+
+
+
+
+
+
 
 input:focus {
     border-color: #007eb2;
@@ -392,13 +406,13 @@ input:focus {
 
     .docs-nav a:hover {
         background: #26ABE2;
-		color:#fff;
+        color:#fff;
     }
 
     .docs-nav a:active, 
     .docs-nav .active {
         background: #26ABE2;
-		color:#fff;
+        color:#fff;
         border-right: 2px solid #ccc;
     }
 
@@ -407,8 +421,10 @@ input:focus {
     }
 
     .docs-content {
-        padding-left: 0px;
+        padding-left: 310px;
     }
+
+
 
     header {
         padding: 1em 0 1em 0; 
@@ -427,7 +443,5 @@ input:focus {
     input {
         display: inline-block;
     }
-
-
 
 }
